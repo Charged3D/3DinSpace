@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Printing in Space</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Початковий екран -->
+    <div id="intro-container">
+        <img src="start-image.png" alt="3D Printing in Space" id="start-image">
+        <div class="text-container initial">
+            <p>3D-друк у космосі: новий етап досліджень Всесвіту.</p>
+        </div>
+        <button id="start-button">Почати</button>
+    </div>
+    
+    <div id="video-container" style="display: none;">
+        <video id="video-player" playsinline preload="auto">
+            <source src="scene1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="text-container" id="text-container">
+            <p id="scene-text"></p>
+        </div>
+        <button id="next-button" style="display: none;">Продовжити</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
